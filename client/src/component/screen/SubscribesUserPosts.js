@@ -1,5 +1,5 @@
 import React,{useState,useEffect,useContext} from 'react'
-import {UserContext} from '../../App'
+import {UserContext} from '../../app'
 import {Link} from 'react-router-dom'
 const SubscribesUserPosts  = ()=>{
     const [data,setData] = useState([])
