@@ -74,7 +74,7 @@ const CreatePost = () => {
                 </div>
             </div>
             <button className="btn waves-effect waves-light #2196f3 blue" onClick={() => PostDetails()}>
-                submit post
+                Submit Post
             </button>
         </div>
     );
