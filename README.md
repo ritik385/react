@@ -1,2 +1,2 @@
-# Node-Instra-Clone
+# Node-Insta-Clone
 Node- Instra Clone
