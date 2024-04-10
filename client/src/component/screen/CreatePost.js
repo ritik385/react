@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import M from 'materialize-css';
 import { useNavigate } from 'react-router-dom';
+import {URI} from "../../route.js"
 
 const CreatePost = () => {
     const navigate = useNavigate();
@@ -12,7 +13,7 @@ const CreatePost = () => {
     useEffect(() => {
         const postData = async () => {
             try {
-                const response = await fetch('http://localhost:5000/createpost', {
+                const response = await fetch(`${URI}/createpost`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
